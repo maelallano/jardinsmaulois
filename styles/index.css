@@ -46,6 +46,8 @@ aside {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url(../assets/images/couverture2.jpeg);
     background-position: 0px 0px, 50% 49%;
     background-size: auto, cover;
+    position: relative;
+    z-index: 15;
 }
 
 .top_section-title {
