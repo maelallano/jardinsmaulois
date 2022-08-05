@@ -1,0 +1,135 @@
+@media only screen and (min-width: 1440px) {
+    .wrapper {
+        max-width: 980px;
+    }
+
+    .aside-imageWrapper {
+        max-width: 75%;
+    }
+
+    .aside-list {
+        margin: 40px 0;   
+        padding-bottom: 35px;
+    }
+
+    .aside-text {
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .top_section-title {
+        margin-bottom: 2px;
+    }
+
+    .content-info-container {
+        gap: 0 48px;
+    }
+
+    .content-info-title {
+        font-size: 38px;
+    }
+
+    .content-info-text {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .content-contact-container {
+        gap: 0px 48px;
+    }
+
+    .assets_wrapper {
+        gap: 48px;
+    }
+}
+
+@media only screen and (min-width: 2560px) {
+    .wrapper {
+        max-width: 1280px;
+    }
+
+    aside {
+        width: 600px;
+    }
+
+    .aside-list {
+        margin: 45px 0;   
+        padding-bottom: 40px;     
+    }
+
+    .aside-text {
+        font-size: 28px;
+        line-height: 48px;
+    }
+
+    #content_section {
+        padding: 60px 32px 110px 32px;
+    }
+
+    section {
+        width: calc(100vw - 600px) !important;
+        right: 0;
+    }
+
+    .top_section-title {
+        font-size: 62px;
+        margin-bottom: 20px;
+    }
+
+    .top_section-link {
+        font-size: 24px;
+        padding: 20px 42px;
+    }
+
+    .content-info-container {
+        gap: 0 64px;
+    }
+
+    .content-info-image {
+        object-fit: cover;
+        width: 640px;
+        height: 640px;
+    }
+
+    .content-info-title {
+        font-size: 48px;
+        margin-bottom: 40px;
+    }
+
+    .content-info-text {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .content-contact-container {
+        gap: 0px 64px;
+    }
+
+    .content-contact-container a {
+        min-width: 320px;
+        font-size: 22px;
+        padding: 28px 50px;
+        margin: 40px 0;
+    }
+
+    .assets_wrapper {
+        gap: 64px;
+    }
+
+    .asset:first-child .asset-icon {
+        width: 148px;
+    }
+
+    .asset-icon {
+        width: 120px;
+        margin-bottom: 20px;
+    }
+
+    .asset-title {
+        font-size: 26px;
+    }
+
+    .asset-title span {
+        font-size: 16px;
+    }
+}

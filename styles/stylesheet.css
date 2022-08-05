@@ -10,12 +10,16 @@ html {
     padding-bottom: 120px;
 }
 
+.wrapper {
+    max-width: 320px;
+}
+
 .go_top_button {
     position: fixed;
-    bottom: 30px;
-    right: 30px;
-    width: 45px;
-    height: 45px;
+    bottom: 32px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
     background-color: #388e3c;
     text-align: center;
     display: flex;
@@ -27,8 +31,8 @@ html {
 }
 
 .go_top_button-image {
-    width: 17px;
-    height: 17px;
+    width: 15px;
+    height: 15px;
 }
 
 aside {
@@ -104,7 +108,7 @@ aside {
     align-items: center;
     padding: 50px 0 0 0;
     width: 100%;
-    max-width: 980px;
+    margin-bottom: 60px;
 }
 
 .content-info-imageWrapper {
@@ -138,12 +142,11 @@ aside {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 60px 0 10px 0;
-    max-width: 980px;
+    margin: 0 0 10px 0;
 }
 
 .content-contact-container a {
-    padding: 18px 0px;
+    padding: 16px 12px;
     min-width: 280px;
     text-align: center;
     background-color: #155f34;
@@ -156,6 +159,7 @@ aside {
     text-transform: uppercase;
     letter-spacing: 1px;
     transition: all 0.2s ease;
+    font-size: 14px;
 }
 
 .content-contact-phone {}
@@ -183,7 +187,6 @@ aside {
     align-items: center;
     padding: 0 10px;
     width: 100%;
-    max-width: 980px;
 }
 
 .asset {
@@ -213,157 +216,4 @@ aside {
 .asset-title span {
     font-size: 12px;
 }
-
 /* Company assets section end */
-
-
-@media only screen and (min-width: 768px) {
-    .layer {
-        width: 100vw;
-        padding-bottom: 120px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-    }
-
-    aside {
-        display: flex;
-        width: 300px;
-        height: 100vh;
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: 20;
-        background-color: #c2bba9;
-    }
-
-    .aside-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .aside-imageWrapper {
-        margin-bottom: 20px;
-        max-width: 65%;
-    }
-
-    #brand {
-        width: 100%;
-    }
-
-    .aside-list {
-        border-bottom: 1px solid rgba(0, 0, 0, .5);
-        margin-bottom: 20px;
-        padding-bottom: 15px;
-    }
-
-    .aside-text {
-        font-size: 16px;
-        line-height: 24px;
-        font-weight: bold;
-        color: #333;
-        margin-bottom: 5px;
-    }
-
-    section {
-        width: calc(100vw - 300px) !important;
-        right: 0;
-    }
-
-    /* Top section start */
-    #top_section {
-        max-height: 480px;
-    }
-
-    .top_section-logoWrapper {
-        display: none;
-    }
-
-    .top_section-title {
-        margin-top: 180px;
-    }
-
-    /* Top section end */
-
-    /* Content section start */
-    /* Content info start */
-    .content-info-container {
-        flex-direction: row;
-        align-items: flex-start;
-        gap: 0 32px;
-    }
-
-    .row-reverse {
-        flex-direction: row-reverse;
-    }
-
-    .content-info-image {
-        object-fit: cover;
-        width: 400px;
-        height: 400px;
-    }
-
-    /* .image-elagage {
-        bottom: 18%;
-    }
-
-    .image-demontage {
-        bottom: 18%;
-    }
-
-    .image-abattage {}
-
-    .image-taille_camion {
-        right: 31%;
-    }
-
-    .image-debroussaillage {
-        right: 21%;
-    }
-
-    .image-broyage2 {
-        right: 11%;
-    }
-
-    .image-dessouchage {
-        bottom: 17%;
-    } */
-
-    /* .image-pieges {} */
-
-    /* Content info end */
-
-    /* Content contact start */
-    .content-contact-container {
-        flex-direction: row;
-        justify-content: center;
-        gap: 0 20px;
-    }
-
-    .content-contact-container a {
-        flex: 1;
-        max-width: 200px;
-    }
-
-    /* Content contact end */
-    /* Content section end */
-
-    /* Company assets section start */
-    #assets_section {
-        padding: 0 32px;
-    }
-
-    .assets_wrapper {
-        flex-direction: row;
-        gap: 20px;
-        padding: 18px 24px;
-    }
-
-    .asset {
-        flex: 1;
-    }
-
-    /* Company assets section end */
-}
