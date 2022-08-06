@@ -50,7 +50,7 @@
         margin-bottom: 5px;
     }
 
-    section {
+    section, header, footer {
         width: calc(100vw - 300px) !important;
         right: 0;
     }
