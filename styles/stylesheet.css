@@ -1,7 +1,7 @@
 html {
     font-family: lato, sans-serif;
-    color: #333;
-    background-color: #f9f9f9;
+    color: var(--black);
+    background-color: var(--main-white);
     scroll-behavior: smooth;
 }
 
@@ -20,7 +20,7 @@ html {
     right: 20px;
     width: 40px;
     height: 40px;
-    background-color: #388e3c;
+    background-color: var(--main-color);
     text-align: center;
     display: flex;
     align-items: center;
@@ -47,7 +47,7 @@ nav {
     justify-content: flex-end;
     height: 80vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(../assets/images/couverture2.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url(../assets/images/couverture2.jpeg);
     background-position: 0px 0px, 50% 49%;
     background-size: auto, cover;
     position: relative;
@@ -57,7 +57,7 @@ nav {
 .top_section-logoWrapper {
     width: 120px;
     height: 120px;
-    background: #F0F0F0;
+    background: var(--main-white);
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -71,23 +71,23 @@ nav {
 .top_section-title {
     font-size: 38px;
     font-weight: bold;
-    color: #f9f9f9;
+    color: var(--main-white);
     margin-top: 20px;
 }
 
 .top_section-link {
-    background-color: rgba(146, 164, 11, 50);
+    background: var(--main-color);
+    transition: all 0.2s ease-in-out;
     padding: 13px 30px;
     font-weight: normal;
-    color: #f9f9f9;
+    color: var(--main-white);
     text-align: center;
-    border: none;
-    border-radius: 3px;
-    color: #f9f9f9;
+    color: var(--main-white);
     font-weight: bold;
-    transition: all 0.2s ease;
     margin-top: 20px;
     margin-bottom: 16%;
+    padding: 16px 32px;
+    border-radius: 8px;
 }
 
 /* Top section end */
@@ -124,14 +124,19 @@ nav {
 .content-info-title {
     font-size: 28px;
     font-weight: bold;
-    color: #282c36;
     margin-bottom: 22px;
+    background: var(--main-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding: 4px 0;
 }
 
 .content-info-text {
     text-align: justify;
     font-size: 16px;
     line-height: 24px;
+    color: var(--grey);
 }
 
 /* Content info end */
@@ -146,25 +151,29 @@ nav {
 }
 
 .content-contact-container a {
-    padding: 16px 12px;
-    min-width: 280px;
+    min-width: 240px;
     text-align: center;
-    background-color: #155f34;
     margin: 12px 0px;
-    border: none;
-    border-radius: 3px;
-    color: #f9f9f9;
     font-size: 13px;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
-    transition: all 0.2s ease;
+    transition: all 0.2s ease-in-out;
     font-size: 14px;
+    padding: 16px 32px;
+    border-radius: 8px;
+    border: 1px solid var(--main-color)
 }
 
-.content-contact-phone {}
+.content-contact-phone {
+    color: var(--main-white);
+    background-color: var(--main-color);
+}
 
-.content-contact-mail {}
+.content-contact-mail {
+    color: var(--main-color);
+    background-color: var(--main-white);
+}
 
 /* Content contact end */
 /* Content section end */
@@ -179,9 +188,9 @@ nav {
 }
 
 .assets_wrapper {
-    border: 1px solid #282c36;
+    border: 1px solid var(--black);
     border-radius: 5px;
-    background-color: #efefef;
+    background-color: var(--secondary-white);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -209,11 +218,12 @@ nav {
 .asset-title {
     font-size: 19px;
     font-weight: bold;
-    color: #282c36;
+    color: var(--black);
     text-align: center;
 }
 
 .asset-title span {
     font-size: 12px;
 }
+
 /* Company assets section end */
