@@ -121,6 +121,10 @@ nav {
     height: 320px;
 }
 
+.image-taille_camion {
+    object-position: right;
+}
+
 .content-info-title {
     font-size: 28px;
     font-weight: bold;
