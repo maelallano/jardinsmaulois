@@ -1,8 +1,37 @@
+@font-face {
+    font-family: 'DM Serif Display';
+    src: url('../assets/fonts/DMSerifDisplay-Regular.woff2') format('woff2'),
+        url('../assets/fonts/DMSerifDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('../assets/fonts/DMSans-Regular.woff2') format('woff2'),
+        url('../assets/fonts/DMSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 html {
-    font-family: lato, sans-serif;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
     color: var(--black);
     background-color: var(--main-white);
     scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
 }
 
 .layer {
@@ -29,6 +58,7 @@ html {
     transition: all 0.2s ease;
     z-index: 10;
 }
+
 .go_top_button:hover {
     box-shadow: 0 0.5em 0.5em -0.4em var(--main-color);
 }
@@ -73,7 +103,6 @@ nav {
 
 .top_section-title {
     font-size: 38px;
-    font-weight: bold;
     color: var(--main-white);
     margin-top: 20px;
 }
@@ -127,7 +156,6 @@ nav {
 
 .content-info-title {
     font-size: 28px;
-    font-weight: bold;
     margin-bottom: 22px;
     background: var(--main-gradient);
     -webkit-background-clip: text;
@@ -219,7 +247,6 @@ nav {
 
 .asset-title {
     font-size: 19px;
-    font-weight: bold;
     color: var(--black);
     text-align: center;
 }
@@ -255,7 +282,6 @@ footer {
 
 .footer-topContainer-title {
     font-size: 28px;
-    font-weight: bold;
     margin-bottom: 22px;
     background: var(--main-gradient);
     -webkit-background-clip: text;
@@ -282,7 +308,6 @@ footer {
 
 .footer-midContainer-left-title {
     font-size: 18px;
-    font-weight: bold;
     margin-bottom: 20px;
     background: var(--main-gradient);
     -webkit-background-clip: text;
