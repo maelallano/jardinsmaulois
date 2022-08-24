@@ -137,6 +137,21 @@
         }
     }
 
+    .fadeInTop {
+        animation-name: fadeInTop;
+    }
+
+    @keyframes fadeInTop {
+        from {
+            opacity: 0;
+            transform: translateY(-100%);
+        }
+
+        to {
+            opacity: 1
+        }
+    }
+
     .row-reverse {
         flex-direction: row-reverse;
     }
@@ -167,6 +182,9 @@
         gap: 0 32px;
         margin: 30px 0;
         margin-top: -8px;
+
+        animation-duration: 1s;
+        animation-fill-mode: both;
     }
 
     .content-contact-container a {
@@ -193,6 +211,9 @@
         flex-direction: row;
         gap: 32px;
         padding: 18px 24px;
+
+        animation-duration: 1s;
+        animation-fill-mode: both;
     }
 
     .asset {
