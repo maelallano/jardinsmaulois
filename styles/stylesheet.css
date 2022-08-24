@@ -20,7 +20,7 @@ html {
     right: 20px;
     width: 40px;
     height: 40px;
-    background-color: var(--main-color);
+    background: var(--main-gradient);
     text-align: center;
     display: flex;
     align-items: center;
@@ -28,6 +28,9 @@ html {
     border-radius: 50px;
     transition: all 0.2s ease;
     z-index: 10;
+}
+.go_top_button:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--main-color);
 }
 
 .go_top_button-image {
@@ -76,15 +79,14 @@ nav {
 }
 
 .top_section-link {
-    background: var(--main-color);
+    background: #496B68;
     transition: all 0.2s ease-in-out;
-    padding: 13px 30px;
     font-weight: normal;
     color: var(--main-white);
     text-align: center;
     margin-top: 20px;
     margin-bottom: 16%;
-    padding: 16px 32px;
+    padding: 18px 36px;
     border-radius: 8px;
 }
 
@@ -135,7 +137,6 @@ nav {
 }
 
 .content-info-text {
-    text-align: justify;
     font-size: 16px;
     line-height: 24px;
     color: var(--grey);
@@ -167,7 +168,7 @@ nav {
 
 .content-contact-phone {
     color: var(--main-white);
-    background-color: var(--main-color);
+    background: var(--main-gradient);
 }
 
 .content-contact-mail {
@@ -194,7 +195,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 10px;
+    padding: 40px 10px;
     width: 100%;
     box-sizing: border-box;
 }
@@ -321,7 +322,7 @@ footer {
 .footer-midContainer-right-phone {
     margin-bottom: 24px;
     color: var(--main-white);
-    background-color: var(--main-color);
+    background: var(--main-gradient);
 }
 
 .footer-midContainer-right-mail {
