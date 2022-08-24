@@ -19,22 +19,23 @@
         left: 0;
         z-index: 20;
         background: var(--main-gradient);
+        overflow: scroll;
     }
 
     .nav-container {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
+        margin: auto;
     }
 
     .nav-imageWrapper {
-        margin-bottom: 40px;
+        margin-bottom: 25px;
         background: var(--main-white);
         border-radius: 50%;
-        height: 220px;
-        width: 220px;
-        min-width: 220px;
+        height: 180px;
+        width: 180px;
+        min-width: 180px;
         display: flex;
         justify-content: center;
         align-items: center;
