@@ -147,6 +147,39 @@ nav {
     padding: 50px 0 0 0;
     width: 100%;
     margin-bottom: 60px;
+
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.fadeInBottom {
+    animation-name: fadeInBottom;
+}
+
+@keyframes fadeInBottom {
+    from {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.fadeInTop {
+    animation-name: fadeInTop;
+}
+
+@keyframes fadeInTop {
+    from {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+
+    to {
+        opacity: 1
+    }
 }
 
 .content-info-imageWrapper {
@@ -188,6 +221,9 @@ nav {
     flex-direction: column;
     align-items: center;
     margin: 0 0 10px 0;
+
+    animation-duration: 1s;
+    animation-fill-mode: both;
 }
 
 .content-contact-container a {
@@ -234,6 +270,9 @@ nav {
     padding: 40px 10px;
     width: 100%;
     box-sizing: border-box;
+
+    animation-duration: 1s;
+    animation-fill-mode: both;
 }
 
 .asset {
