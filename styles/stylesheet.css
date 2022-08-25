@@ -117,10 +117,10 @@ nav {
 }
 
 .top_section-link {
-    background: #496B68;
+    background: var(--secondary-white);
+    color: var(--main-color);
     transition: all 0.2s ease-in-out;
     font-weight: normal;
-    color: var(--main-white);
     text-align: center;
     margin-top: 20px;
     margin-bottom: 16%;
