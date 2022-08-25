@@ -6,6 +6,6 @@
     --black: #1E1F1F;
     --grey: #676B6B;
     --lightgrey: #D1E0DF;
-    --main-gradient: linear-gradient(95.67deg, #496B68 0%, #263837 100%);
+    --main-gradient: linear-gradient(95.67deg, #496B68 0%, #263837 200%);
     --secondary-gradient: linear-gradient(95.67deg, #263837 0%, #496B68 100%);
 }
