@@ -89,8 +89,8 @@ nav {
     justify-content: flex-end;
     height: 80vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url(../assets/images/couverture2.webp);
-    background-position: 0px 0px, 50% 49%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url(../assets/images/couverture2mobile.webp);
+    background-position: 0px 0px, 50% 100%;
     background-size: auto, cover;
     position: relative;
     z-index: 15;
