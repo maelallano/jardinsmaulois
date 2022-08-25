@@ -8,6 +8,11 @@
         right: 32px;
     }
 
+    #top_section {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url(../assets/images/couverture2.webp);
+        background-position: 0px 0px, 50% 49%;
+    }
+
     .top_section-logoWrapper {
         width: 180px;
         height: 180px;
